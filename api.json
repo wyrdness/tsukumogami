@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/tsukumogami",
     "maintainers": [
       {
@@ -18,296 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "tsukumogami",
     "name": "Tsukumogami",
-    "aliases": [
-      {
-        "name": "Tsukumo-gami",
-        "language": "Japanese",
-        "meaning": "Tool spirit"
-      },
-      {
-        "name": "Ninety-Nine Gods",
-        "meaning": "Translation referring to 99 years before animation"
-      }
-    ],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Japanese Yokai",
+    "aliases": [],
+    "category": "|_WATER_SPIRITS_IN_JAPANESE_FOLKLORE_|",
+    "subcategory": "Animated Object",
     "tags": [
-      "yokai",
-      "japanese-folklore",
-      "animated-objects",
-      "household-spirits",
-      "shinto",
-      "animism",
-      "cultural-tradition"
+      "folklore",
+      "mythology"
     ],
-    "status": "traditional_belief",
+    "status": "documented",
     "description": {
-      "summary": "Japanese yokai of household objects that gain sentience and animation after 100 years of existence. Rooted in Shinto animism and Buddhist concepts, these spirits embody respect for objects and anti-wastefulness philosophy.",
-      "full": "Tsukumogami are a class of Japanese yokai where household items and tools gain sentience after reaching 100 years of age. The concept stems from Shinto animism (belief that all objects possess spiritual essence) combined with Buddhist teachings. These animated objects can range from benign pranksters to vengeful spirits, particularly if they were mistreated or carelessly discarded. Common examples include Karakasa (umbrella yokai), Bakezori (sandal spirits), and Kameosa (sake jar spirits). The tradition encourages respect for possessions, gratitude, and environmental consciousness, values still celebrated in modern Japanese culture through practices like Hari Kuyo (needle memorial service)."
+      "summary": "Tsukumogami (付喪神) are a class of Japanese yokai where household items and tools gain sentience after reaching 100 years of age.",
+      "full": "Tsukumogami (付喪神) are a class of Japanese yokai where household items and tools gain sentience after reaching 100 years of age. The concept stems from Shinto animism—the belief that all objects possess spiritual essence—combined with Buddhist teachings about impermanence and attachment. These animated objects can range from benign pranksters to vengeful spirits, particularly if they were mistreated or carelessly discarded. Common examples include **Karakasa** (umbrella yokai with one eye and one leg), **Bakezori** (animated sandals), and **Kameosa** (sake jar spirits). The tradition encourages respect for possessions, gratitude for faithful service, and environmental consciousness—values still celebrated in modern Japanese culture through practices like **Hari Kuyo** (needle memorial service)."
     },
     "etymology": {
-      "origin": "From Japanese 'tsukumo' (九十九, ninety-nine) and 'gami/kami' (神, god/spirit)",
-      "meaning": "The term refers to objects that have existed for 99 years, on the verge of their 100th year transformation",
-      "cultural_significance": "Reflects Japanese concepts of mottainai (regret over waste) and animistic worldview"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT",
-      "type": "Yokai",
-      "subtype": "Animated Object",
-      "variant": "Japanese Traditional"
+      "category": "|_WATER_SPIRITS_IN_JAPANESE_FOLKLORE_|",
+      "type": "Animated Object",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "kitsune",
-        "name": "Kitsune",
-        "relationship": "yokai_category",
-        "description": "Fox spirits in Japanese folklore"
-      },
-      {
-        "id": "oni",
-        "name": "Oni",
-        "relationship": "yokai_category",
-        "description": "Demon spirits in Japanese folklore"
-      },
-      {
-        "id": "kappa",
-        "name": "Kappa",
-        "relationship": "yokai_category",
-        "description": "Water spirits in Japanese folklore"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": "Varies by object type - typically the original object with added anthropomorphic features (faces, limbs)",
-      "features": [
-        {
-          "feature": "Facial features",
-          "description": "Often develop eyes, mouths, sometimes noses on the object surface",
-          "frequency": "common"
-        },
-        {
-          "feature": "Limbs",
-          "description": "May sprout arms, legs, or tentacle-like appendages",
-          "frequency": "common"
-        },
-        {
-          "feature": "Original form",
-          "description": "Retains recognizable characteristics of original object",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Animated household objects with varying degrees of anthropomorphization"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Animation",
-        "description": "Ability to move independently after 100 years",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Speech",
-        "description": "Can communicate, often to complain or play pranks",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Minor magic",
-        "description": "Some possess magical abilities related to their original function",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "variable",
-      "temperament": "Benign or vengeful depending on how they were treated",
-      "patterns": [
-        "Harmless pranks if treated well",
-        "Vengeful actions if mistreated or discarded carelessly",
-        "Nostalgia for their service years",
-        "Attachment to former owners"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
-  "types": {
-    "common_varieties": [
-      {
-        "name": "Karakasa",
-        "object": "Umbrella",
-        "description": "One-eyed, one-legged umbrella yokai with long tongue",
-        "disposition": "Mischievous"
-      },
-      {
-        "name": "Bakezori",
-        "object": "Sandal/Straw sandal",
-        "description": "Animated sandals that run around at night making noise",
-        "disposition": "Prankster"
-      },
-      {
-        "name": "Kameosa",
-        "object": "Sake jar",
-        "description": "Old sake jar spirit that licks up spilled sake",
-        "disposition": "Harmless"
-      },
-      {
-        "name": "Biwa-bokuboku",
-        "object": "Biwa (lute)",
-        "description": "Musical instrument yokai that plays itself",
-        "disposition": "Benign"
-      },
-      {
-        "name": "Chochinobake",
-        "object": "Paper lantern",
-        "description": "Lantern with one eye and long tongue",
-        "disposition": "Harmless"
-      }
-    ]
-  },
-
   "distribution": {
     "range": {
-      "description": "Traditional belief throughout Japan, part of Japanese cultural heritage",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Throughout Japan"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_presence": "Nationwide Japanese folklore tradition",
+    "hotspots": [],
     "temporal": {
-      "origins": {
-        "period": "Heian period (794-1185)",
-        "development": "Evolved through Muromachi and Edo periods"
-      },
-      "peak_cultural_influence": "Edo period (1603-1868)",
-      "modern_status": "Active cultural tradition, popular in media"
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Shinto animism combined with Buddhist concepts of impermanence and attachment",
-      "earliest_accounts": "References in Heian period literature and emakimono (picture scrolls)",
-      "folklore_connections": "Part of broader yokai traditions in Japanese folklore"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "794-1185",
-        "period": "Heian Period",
-        "event": "Early references to animated objects in literature",
-        "significance": "Foundational period for yokai concepts"
-      },
-      {
-        "date": "1603-1868",
-        "period": "Edo Period",
-        "event": "Flourishing of yokai art and stories",
-        "significance": "Tsukumogami widely depicted in art and literature"
-      },
-      {
-        "date": "Modern era",
-        "event": "Hari Kuyo and similar ceremonies continue",
-        "significance": "Living tradition of object respect"
-      }
-    ],
-    "cultural_practices": {
-      "hari_kuyo": "Needle memorial service where old/broken needles are thanked and laid to rest",
-      "significance": "Demonstrates ongoing cultural practice of respecting objects"
-    }
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Shinto animism (all objects contain kami/spirit)",
-        "Buddhist teachings on impermanence and attachment",
-        "Mottainai philosophy (regret over waste)"
-      ],
-      "beliefs": "Objects that served faithfully deserve respect and gratitude",
-      "ceremonies": [
-        "Hari Kuyo (needle memorial)",
-        "Fude Kuyo (brush memorial)",
-        "Ningyo Kuyo (doll memorial)"
-      ]
-    },
-    "indigenous": {
-      "cultural_sensitivity": "⚠️ IMPORTANT: Tsukumogami are part of living Shinto/Buddhist cultural tradition. Approach with respect for Japanese cultural and religious practices.",
-      "significance": "Embodies core Japanese values of gratitude, respect for objects, and environmental consciousness"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Hyakki Yagyo Emaki (Night Parade of 100 Demons scrolls)",
-        "Modern manga and light novels"
-      ],
-      "anime_manga": [
-        "Pokémon (several tsukumogami-inspired creatures)",
-        "Studio Ghibli films (object spirits)",
-        "Tsukumogami Kashimasu (anime series)",
-        "Nurarihyon no Mago"
-      ],
-      "games": [
-        "Pokémon series (Banette, Rotom, etc.)",
-        "Yo-kai Watch series",
-        "Various JRPG games"
-      ]
-    },
-    "philosophy": {
-      "core_values": [
-        "Respect for objects and tools",
-        "Gratitude for service",
-        "Anti-wastefulness",
-        "Environmental consciousness",
-        "Animistic worldview"
-      ],
-      "modern_relevance": "Encourages sustainable practices and appreciation for possessions in contemporary society"
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "symbolism": {
-    "themes": [
-      "Respect for material culture",
-      "Consequences of wastefulness",
-      "Animism and spiritual interconnectedness",
-      "Gratitude and mindfulness",
-      "Environmental stewardship"
-    ],
-    "interpretation": "Tsukumogami represent the Japanese cultural value of finding spirit and dignity in all things, encouraging careful treatment of possessions and mindful consumption"
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "komatsu-2017",
-      "type": "book",
-      "title": "An Introduction to Yokai Culture",
-      "authors": ["Kazuhiko Komatsu"],
-      "publication": "Japan Publishing Industry Foundation for Culture",
-      "date": "2017"
-    },
-    {
-      "id": "meyer-2015",
-      "type": "book",
-      "title": "The Night Parade of One Hundred Demons: A Field Guide to Japanese Yokai",
-      "authors": ["Matthew Meyer"],
-      "publication": "Self-published",
-      "date": "2015"
-    }
-  ]
+  "sources": []
 }
