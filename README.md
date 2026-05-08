@@ -1,286 +1,158 @@
 # Tsukumogami
 
-> *"Even the humblest tool, faithfully serving for 100 years, gains a soul."*
+> Tsukumogami (付喪神) are a class of Japanese yokai in which household items and tools gain sentience and spiritual essence after approximately 100 years of existence; rooted in Shinto animism and Buddhist teachings, they can range from benign pranksters to vengeful spirits if discarded carelessly.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-traditional__belief-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-08-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `tsukumogami` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Japanese Yokai / Animated Object |
-| **First Recorded** | Heian Period (794-1185) |
-| **Primary Region** | Japan |
-| **Status** | Traditional belief, active cultural practice |
+| **Subcategory** | Animated object spirit (yokai class) |
+| **First recorded** | 0905-01-01 |
+| **Primary range** | Japan |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Tsukumogami (付喪神) are a class of Japanese yokai where household items and tools gain sentience after reaching 100 years of age. The concept stems from Shinto animism—the belief that all objects possess spiritual essence—combined with Buddhist teachings about impermanence and attachment.
-
-These animated objects can range from benign pranksters to vengeful spirits, particularly if they were mistreated or carelessly discarded. Common examples include **Karakasa** (umbrella yokai with one eye and one leg), **Bakezori** (animated sandals), and **Kameosa** (sake jar spirits).
-
-The tradition encourages respect for possessions, gratitude for faithful service, and environmental consciousness—values still celebrated in modern Japanese culture through practices like **Hari Kuyo** (needle memorial service).
+Tsukumogami (付喪神) are a broad class of Japanese yokai in which everyday objects — household implements, tools, musical instruments, umbrellas, sandals, lanterns — gain consciousness, life, and spiritual essence after approximately 100 years of use. The concept is grounded in Shinto animism, the belief that all things possess a spiritual essence (kami), combined with Buddhist teachings about impermanence, attachment, and the spiritual consequences of treating objects carelessly. The threshold of 100 years is somewhat fluid in the tradition — the alternate kanji rendering 九十九神 (ninety-nine spirits) emphasizes great age rather than a precise number. Objects that are cared for, used faithfully, and respectfully disposed of are unlikely to become problematic tsukumogami; those discarded carelessly or thoughtlessly may awaken in anger and seek revenge on their former owners. The tradition encouraged practical piety: people performed susu-harai (year-end cleaning) to discard or replace very old objects before they reached the dangerous age of 100, preventing them from becoming troublesome spirits. Common examples include the karakasa-kozō (umbrella ghost with one eye and one leg), bakezōri (animated sandals), chōchin'obake (lantern ghost), and zenfushō (animated tea kettles). The tradition was used by Shingon Buddhist missionaries from the 10th century onward to teach doctrinal concepts about attachment and impermanence to broad audiences. Today, the concept is echoed in Shinto shrine ceremonies that 'console' broken and unusable items — kuyō rituals that honor the spirit of old objects before their disposal.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 付喪神 | Japanese | The kanji form: attached/grieving spirit of an object; read tsukumogami |
+| 九十九神 | Japanese | Alternate kanji: ninety-nine spirits; emphasizes great age (100 years) as the threshold for animation |
 
-### Primary Name
-- **Tsukumogami** (付喪神) — From Japanese 'tsukumo' (九十九, ninety-nine) and 'gami/kami' (神, god/spirit). The term refers to objects that have existed for 99 years, on the verge of their 100th year transformation.
+## Etymology
 
-### Alternative Names
-
-| Name | Meaning |
-|------|---------|
-| Tsukumo-gami | Alternative romanization |
-| Ninety-Nine Gods | English translation reference |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Animated Object
-└── Variant: Japanese Traditional
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Kitsune](/kitsune) | Yokai category | Fox spirits in Japanese folklore |
-| [Oni](/oni) | Yokai category | Demon spirits in Japanese folklore |
-| [Kappa](/kappa) | Yokai category | Water spirits in Japanese folklore |
+- **Origin**: Japanese. The term combines tsukumo (つくも, old) with kami (神, spirit or god). The kanji 付喪神 dates to the Tenpō period (1830–1844 CE). An alternate kanji form 九十九神 (ninety-nine spirits) is also attested.
+- **Meaning**: Approximately 'old-thing spirit' or 'spirit of the aged object.' The ninety-nine reading emphasizes the age at which objects gain spiritual essence.
+- **First use**: The concept appears in 9th-century Japanese poetry (The Tales of Ise / Ise Monogatari); the specific term tsukumogami was documented in the Tenpō period (1830s) but the phenomenon it names is attested far earlier.
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Yokai (broadly)](../yokai/) — _superset_: Tsukumogami are a subclass of the broad category of Japanese supernatural beings called yokai
+- [Kami](../kami/) — _related_: In Shinto belief, all objects possess kami (spirit/essence); tsukumogami represent the awakening of that essence in aged objects
+- [Karakasa-kozō](../karakasa/) — _subset_: The umbrella ghost — one of the most famous specific tsukumogami
 
-### Physical Description
+---
+## Physical Description
 
-Tsukumogami vary greatly in appearance based on the original object, but typically feature:
+- **Morphology**: Each tsukumogami type reflects the form of its originating object. An umbrella becomes a one-eyed, one-legged hopping creature; a sandal sprouts limbs; a lantern develops a face and mouth. The visual vocabulary was substantially developed in medieval Japanese picture scrolls (emakimono) such as the Tsukumogami Emaki (Tenpō period) and the Hyakki Yagyō Emaki (Muromachi period).
+
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Facial features | Eyes, mouths, sometimes noses on the object surface | Common |
-| Limbs | Arms, legs, or tentacle-like appendages | Common |
-| Original form | Retains recognizable characteristics of base object | Always |
+|---|---|---|
+| Object-hybrid form | Tsukumogami typically manifest as a hybrid between the original object and an animated creature — often depicted with eyes, mouth, limbs, and sometimes a single eye or tongue emerging from the object | always |
+| Human or animal transformation | Some tsukumogami can transform into human or animal forms, particularly when seeking to interact with or deceive humans | occasional |
 
-### Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Animation | Independent movement after 100 years | Folklore |
-| Speech | Can communicate, often to complain or play pranks | Folklore |
-| Minor magic | Magical abilities related to original function | Folklore |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Sentience and self-awareness | The primary characteristic: after approximately 100 years, an object gains consciousness and the ability to act independently | always | folklore |
+| Pranks and mischief | Benign tsukumogami typically express themselves through pranks and minor mischief rather than serious harm | common | folklore |
+| Vengeance | Tsukumogami that were carelessly discarded or mistreated may band together to take revenge on humans; described in the Tsukumogami Emaki as gathering to harm those who wronged them | occasional | folklore |
+| Shapeshifting | Some tsukumogami can assume human or animal form | occasional | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-**Disposition**: Variable (benign to vengeful depending on treatment)
-
-- Harmless pranks if treated well during service
-- Vengeful actions if mistreated or discarded carelessly
-- Nostalgia for their years of service
-- Attachment to former owners
-
----
-
-## Common Types
-
-### Karakasa (傘化け)
-**Object**: Umbrella
-- One-eyed, one-legged umbrella yokai with long tongue
-- Hops around on single leg
-- **Disposition**: Mischievous prankster
-
-### Bakezori (化け草履)
-**Object**: Straw sandal
-- Animated sandals that run around at night
-- Make noise to startle people
-- **Disposition**: Harmless prankster
-
-### Kameosa (瓶長)
-**Object**: Sake jar
-- Old sake jar spirit
-- Licks up spilled sake
-- **Disposition**: Benign
-
-### Chochinobake (提灯お化け)
-**Object**: Paper lantern
-- Lantern with one eye and long tongue
-- Often depicted with flames
-- **Disposition**: Harmless
-
-### Biwa-bokuboku (琵琶牧々)
-**Object**: Biwa (Japanese lute)
-- Musical instrument that plays itself
-- Haunts old temples and shrines
-- **Disposition**: Benign
-
-*Virtually any household object can become tsukumogami: combs, fans, brooms, shamisen, mirrors, and countless others.*
+- **Activity**: nocturnal
+- **Disposition**: variable
+- **Social structure**: variable
+- **Habitat**: human homes, temples, storerooms, anywhere old objects are kept
+- **Diet**: Not described as feeding; motivated by desire for recognition, attachment to their former use, or vengeance for mistreatment
 
 ---
+## Distribution
 
-## Cultural Origins
+Japan; the tsukumogami concept is specific to Japanese culture and is rooted in Shinto animism and Japanese Buddhist traditions.
 
-### Shinto Animism
-In Shinto belief, all things possess **kami** (spiritual essence), including inanimate objects. This foundational animistic worldview enables objects to develop souls.
-
-### Buddhist Influence
-Buddhist concepts contribute:
-- **Impermanence**: All things change and age
-- **Attachment**: Objects can develop attachment to their purpose and owners
-- **Respect for all beings**: Extends to objects that have served faithfully
-
-### Mottainai (もったいない)
-Core Japanese concept expressing regret over waste. Tsukumogami embody this value—carelessly discarding objects that served faithfully is both wasteful and disrespectful.
 
 ---
-
-## Living Traditions
-
-### Hari Kuyo (針供養) — Needle Memorial Service
-**Date**: February 8 or December 8 (varies by region)
-
-Ceremony where old, broken, or bent needles are thanked for their service and laid to rest:
-1. Needles are stuck into soft tofu or konnyaku
-2. Prayers are offered at temples/shrines
-3. Needles are given respectful burial or ritual disposal
-
-**Purpose**: Express gratitude to tools that served faithfully, prevent needles from becoming vengeful tsukumogami
-
-### Similar Ceremonies
-- **Fude Kuyo** (筆供養) — Brush memorial for calligraphy brushes
-- **Ningyo Kuyo** (人形供養) — Doll memorial service
-- **Kasayaki** (傘焼き) — Umbrella burning ceremonies
-
----
-
 ## Historical Timeline
 
-| Period | Event | Significance |
-|--------|-------|--------------|
-| 794-1185 | Heian Period | Early references to animated objects in literature and emakimono (picture scrolls) |
-| 1603-1868 | Edo Period | Flourishing of yokai art; tsukumogami widely depicted in woodblock prints and stories |
-| Modern Era | Ongoing traditions | Hari Kuyo and similar ceremonies continue; popular in contemporary media |
+| Date | Event | Significance |
+|---|---|---|
+| 0905-01-01 | The Tales of Ise (Ise Monogatari) composed; contains conceptual precursors to the tsukumogami belief | Earliest literary context for the animist beliefs underlying tsukumogami |
+| 1300-01-01 | Tsukumogami ki (付喪神記) composed — a tale describing discarded utensils gaining spirit and seeking vengeance on humans during the New Year period | Primary medieval literary text on tsukumogami |
+| 1400-01-01 | Hyakki Yagyō Emaki (Picture scroll of the night parade of one hundred demons) produced in the Muromachi period; prominently depicts tsukumogami among supernatural marchers | Most influential visual representation of tsukumogami |
+| 1835-01-01 | Tsukumogami Emaki (Tenpō period picture scroll) produced, providing the most focused visual catalog of tsukumogami types | Canonical visual reference for tsukumogami taxonomy |
+
+## Evidence
+
+### Documentary
+
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Hyakki Yagyō Emaki (Night parade of one hundred demons scroll) | 1400-01-01 | Muromachi-period picture scroll depicting the night parade of supernatural beings; prominently features tsukumogami among the marching yokai. | verified |
+| Tsukumogami Emaki | 1835-01-01 | Tenpō period picture scroll specifically dedicated to tsukumogami; provides the most focused catalog of tsukumogami types and their visual representations. | verified |
 
 ---
+## Theories & Explanations
 
-## Philosophy & Symbolism
+### Paranormal / Cryptozoological
 
-### Core Values
+**Literal spiritual awakening of objects** _(Traditional Shinto belief, Japanese folk religious tradition)_
 
-1. **Respect for Objects**
-   Objects deserve respect, especially those that have served faithfully
+Traditional Shinto/Buddhist view: all objects genuinely possess spiritual essence (kami), and objects that have served faithfully for 100 years do literally awaken into consciousness. This belief motivates kuyō rituals honoring old objects before disposal.
 
-2. **Gratitude**
-   Express thanks for tools and possessions
+### Scientific
 
-3. **Anti-Wastefulness**
-   Discourage carelessly discarding useful items
+**Cultural mechanism for respect and sustainability** _(Folklore scholars, Religious studies scholars of Japanese tradition)_
 
-4. **Environmental Consciousness**
-   Mindful consumption and appreciation for resources
+Scholarly interpretation: tsukumogami belief functions as a cultural mechanism promoting care for possessions, reduced waste, and proper ritual closure for used objects — embedded values in Shinto animism and Buddhist ethics about attachment.
 
-5. **Animistic Worldview**
-   Recognition of spirit in all things
-
-### Modern Relevance
-
-Tsukumogami philosophy aligns with contemporary concerns:
-- **Sustainability**: Encourages repairing over replacing
-- **Minimalism**: Quality over quantity
-- **Mindful consumption**: Appreciation for possessions
-- **Environmental ethics**: Reducing waste
-
----
 
 ## Popular Culture
 
-### Anime & Manga
-- **Pokémon** — Several creatures inspired by tsukumogami (Banette, Rotom, Klefki)
-- **Tsukumogami Kashimasu** — Anime about tsukumogami in modern setting
-- **Nurarihyon no Mago** — Features various yokai including tsukumogami
-- **Studio Ghibli films** — Spirit objects in various works
+**Literature**: Tsukumogami ki (Muromachi period tale); Komatsu Kazuhiko — academic works on yokai including tsukumogami
 
-### Games
-- **Pokémon series** — Multiple tsukumogami-inspired Pokémon
-- **Yo-kai Watch** — Features tsukumogami characters
-- **Various JRPG** — Animated object spirits as characters/enemies
+**Film / TV**: Spirited Away (2001, Studio Ghibli) — features animated objects and spirits in the spirit world; Ayakashi: Samurai Horror Tales (2006, anime); Tsukumogami Kashimasu (2018, anime series specifically about tsukumogami)
 
-### Literature
-- **Hyakki Yagyo Emaki** (百鬼夜行絵巻) — Night Parade of 100 Demons scrolls depicting tsukumogami
-- Modern manga and light novels featuring yokai
+**Games**: Touhou Project — features various tsukumogami characters; Nioh and Nioh 2 — tsukumogami appear as enemies; Yo-kai Watch — tsukumogami-type yo-kai
+
+**Other**: Hari kuyō (needle memorial service) held annually at Shinto shrines across Japan; Ningyo kuyō (doll memorial service) at Awashima Shrine, Wakayama Prefecture and others; Kuyō rituals for computers, phones, and other modern electronics are performed at some Shinto shrines
 
 ---
+## Research
 
-## Cultural Sensitivity
+### Researchers
 
-> ⚠️ **IMPORTANT**: Tsukumogami are part of living Shinto and Buddhist cultural traditions in Japan. This is not merely folklore but reflects active cultural and religious practices.
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Komatsu Kazuhiko | International Research Center for Japanese Studies (Nichibunken) | Extensive academic study of yokai including tsukumogami; foundational Japanese-language scholarship on the tradition | 1980s–present |
 
-### Guidelines
-- Approach with respect for Japanese cultural and religious traditions
-- Understand connection to Shinto animism and Buddhist philosophy
-- Recognize ongoing cultural practices (Hari Kuyo, etc.)
-- Avoid appropriation or trivialization of sacred concepts
-- Appreciate philosophical depth beyond "haunted objects"
+### Organizations
 
----
+- [International Research Center for Japanese Studies (Nichibunken)](https://www.nichibun.ac.jp) — Japanese cultural studies including folklore, yokai research, and traditional belief systems
 
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const tsukumogami = await wyrd.getPhenomenon('tsukumogami');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/tsukumogami/main/api.json
-```
+Tsukumogami are studied in Japanese folklore, religious studies, and cultural anthropology. Contemporary research explores the relationship between tsukumogami belief and modern Japanese practices such as kuyō rituals for electronic devices.
 
 ---
+## Sources
 
-## Sources & References
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
 
-### Primary Sources
+## How to Report a Sighting
 
-- Foster, M.D. (2015). *The Book of Yokai: Mysterious Creatures of Japanese Folklore*. University of California Press.
-- Komatsu, K. (2017). *An Introduction to Yokai Culture*. Japan Publishing Industry Foundation for Culture.
-- Meyer, M. (2015). *The Night Parade of One Hundred Demons: A Field Guide to Japanese Yokai*.
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Addition](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
